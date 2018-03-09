@@ -30,6 +30,8 @@ public class Vehicle {
         this.nama = nama;
     }
 
+    int satu;
+
     /**
      * ===================== Overloading ====================
      * Membuat method dengan nama sama tapi parameter berbeda
@@ -60,6 +62,7 @@ public class Vehicle {
      * @return
      */
     public String getNama2() {
+        String nama2 = "Wiro Sableng";
         return "Nama Dua";
     }
 

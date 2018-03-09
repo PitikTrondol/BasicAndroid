@@ -1,10 +1,21 @@
 package com.binar.basic2;
 
-public class Main {
+import com.Percobaan2;
+import com.blabla.base.Percobaan;
+
+public class Main implements BehaviorKendaraan{
 
     private static Vehicle kendaraan;
     private static Vehicle testOverloading;
     private static Car mobil;
+    private static BehaviorKendaraan behave;
+    private static Percobaan kelasBedaPackage;
+    private static Percobaan2 percobaan2;
+
+    @Override
+    public void TambahRoda() {
+
+    }
 
     public static void main(String[] args) {
 
@@ -17,6 +28,16 @@ public class Main {
         testOverloading = new Vehicle();
 
         mobil = new Car(10000, "Sedan", 4, 1);
+
+//        behave = new BehaviorKendaraan() {
+//            @Override
+//            public void TambahRoda() {
+//                System.out.println("Kelas Android Sore");
+//            }
+//        };
+//
+//        behave.TambahRoda();
+
 
         /**
          * Object Vehicle mengakses method dari kelas Vehicle

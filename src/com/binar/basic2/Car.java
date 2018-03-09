@@ -38,6 +38,12 @@ public class Car extends Vehicle {
         return mesin;
     }
 
+    @Override
+    public int getSpeed() {
+        int speedLocal = 100000;
+        return speedLocal;
+    }
+
     public void setMesin(int mesin) {
         this.mesin = mesin;
     }
